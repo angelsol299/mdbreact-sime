@@ -2,6 +2,7 @@ import React from "react";
 import About from "./AboutMe";
 import "./HomePage.css";
 import LandingContent from "./LandingContent";
+import Aspects from "./Aspects";
 
 class HomePage extends React.Component {
   render() {
@@ -9,6 +10,7 @@ class HomePage extends React.Component {
       <div>
         <LandingContent />
         <About />
+        <Aspects />
       </div>
     );
   }
